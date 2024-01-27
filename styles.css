@@ -1,5 +1,5 @@
 * {
-    font: roboto;
+    font-family: 'Roboto', sans-serif;
 }
 
 header {
@@ -24,5 +24,53 @@ h1 {
 nav a {
     font-size: 18px;
     color: white;
+    padding-right: 15px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
     padding-right: 50px;
+    background-color: #1f2937;
+}
+
+.text-content {
+    max-width: 50%;
+}
+
+.text-content h1 {
+    font-size: 2.5em;
+}
+
+.text-content p {
+    font-size: 1em;
+    color: #aaa;
+}
+
+button {
+    background-color: #3882f6; /* Example button color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin: 15px 15px 15px 0px;
+}
+
+.image-placeholder {
+    width: 30%; /* Adjust based on your preference */
+    height: 200px; /* Adjust based on your preference */
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #aaa; /* Lower contrast color */
+    font-size: 0.8em;
 }
