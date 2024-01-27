@@ -1,0 +1,28 @@
+* {
+    font: roboto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937;
+    padding-left: 50px;
+}
+
+nav {
+    display: flex;
+}
+
+h1 {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 900;
+
+}
+
+nav a {
+    font-size: 18px;
+    color: white;
+    padding-right: 50px;
+}
