@@ -9,6 +9,8 @@ header {
     background-color: #1f2937;
     padding-left: 75px;
     padding-right: 75px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 nav {
@@ -27,10 +29,11 @@ header > h1 {
 
 /* This website is awesome header */
 h1 {
+    width: 300px;
     font-size: 24px;
     color: #f9faf8;
     font-weight: 900;
-    margin-right: auto;
+    /* white-space: nowrap; */
 }
 
 nav a {
@@ -41,10 +44,12 @@ nav a {
 
 .container {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     padding-left: 75px;
     padding-right: 75px;
+    /* padding-top:30px; */
+    padding-bottom:55px;
     background-color: #1f2937;
 }
 
@@ -59,6 +64,8 @@ nav a {
 .text-content p {
     font-size: 1em;
     color: #aaa;
+    /* border: 2px solid red; */
+    width: 300px;
 }
 
 button {
@@ -77,7 +84,7 @@ button {
 }
 
 .image-placeholder {
-    width: 30%; /* Adjust based on your preference */
+    width: 400px; /* Adjust based on your preference */
     height: 200px; /* Adjust based on your preference */
     background-color: #333;
     display: flex;
@@ -85,27 +92,33 @@ button {
     align-items: center;
     color: #aaa; /* Lower contrast color */
     font-size: 0.8em;
+    margin-left: auto;
 }
 
-.random-master-container > h1 {
+.title {
     text-align: center;
+    margin: auto;
     font-size: 36px;
     color: #1f2937;
     font-weight: 900;
-    border: 1px red;
+    /* border: 1px solid red; */
+    width: 500px;
+    margin-bottom:25px; 
+    margin-top: 15px;
 }
 
 .random-even-colums {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     padding-right: 75px;
     padding-left: 75px;
+    gap:70px
 }
 
 .random-smallest-containers {
-    height: 200px;
-    width: 200px;
+    height: 225px;
+    width: 125px;
     /* background-color: #3882f6; */
     display: flex;
     flex-direction: column;
@@ -131,3 +144,93 @@ button {
     text-align: center;
     /* color: red; */
 }
+
+/* Third block down - The inspiring quote block*/
+
+.inspiring-container {
+    display:flex;
+    background-color: #E5E7EB;
+    flex-direction: column;
+
+}
+
+.inspiring-container > h2 {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    margin-left: 200px;
+    margin-right:200px;
+    margin-bottom: 0px;
+}
+
+.inspiring-container > h3 {
+    display: flex;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    margin-left: 200px;
+    margin-right:200px;
+    margin-top: 0px;
+    justify-content: end;
+
+}
+
+/* This is the end of the inspiring quote section */
+
+/* This is the beginning of the Call to Action section */
+.CTA-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.CTA-blue-box-container {
+    display:flex;
+    width: 700px;
+    height: 150px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.text-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:0;
+}
+
+button {
+    /* background-color: #3882f6; Example button color */
+    color: white;
+    border: 2px solid white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin: 15px 50px 15px 0px;
+    mar
+}
+
+.CTA-blue-box-container h4 {
+    margin: 0px 0px 0px 50px;
+    /* border: 2px solid red; */
+    color: white;
+    font-size;
+}
+
+
+.CTA-blue-box-container p {
+    margin: 0px 0px 0px 50px;
+    /* border: 2px solid red */
+    color: white;
+}
+
+/* This is the end of the Call to Action section */
